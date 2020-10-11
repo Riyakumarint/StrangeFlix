@@ -7,7 +7,7 @@ function Home() {
                 
                 <img 
                 className='home__image'
-                src="https://cutewallpaper.org/21/dr-strange-logo/Download-Free-png-Doctor-Strange-Logo-Png-109-images-in-.png" 
+                src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2018/04/bncbdfet.jpg" 
                 alt=""
                 />
     </div>

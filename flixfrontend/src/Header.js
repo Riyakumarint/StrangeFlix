@@ -13,7 +13,7 @@ function Header() {
           <Link to ="/">
             <img 
             className='header__logo' 
-            src='https://i.pinimg.com/originals/da/09/10/da091005bafa21afc8935ec024a0701b.jpg'
+            src='https://i.ibb.co/r6sgLFY/logo.png'
             />
             </Link>
             
