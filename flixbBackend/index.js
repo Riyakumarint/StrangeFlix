@@ -1,7 +1,7 @@
 const cors = require("cors");
 const express = require("express");
 
-const stripe = require("stripe")(sk_test_51Hab30GmKwqVc0yGdrMFdzIqnWHmf33Y5f06wdr4KV0HhobjFDAOsIdceMve59hZMBOJr542fKCUJrNaARgWlynX00nBp9n9U9);
+const stripe = require("stripe")();
 const uuid= require("uuid/v4");
 
 const app = express();
@@ -43,7 +43,6 @@ app.post("/payment", (req, res) => {
     .then(result => res.status(200).json(result))
     .catch(err => console.log(err))
 });
-
 
 // listen
 
