@@ -2,17 +2,31 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: black;
-    position: sticky;
+    width:100%;
+    justify-content: space-between;
+    position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 1;
+
+    /* Animations */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__black {
+    background-color: black;
 }
 
 .header__logo {
-    height: 40px;
+    height: 60px;
     object-fit: contain;
     margin: 0 20px;
     margin-top: 18px;
+}
+
+.about > h1 {
+    
+    color: white;
 }
 
 .header__search {
@@ -26,7 +40,7 @@
     height: 100px;
     padding: 10px;
     border: none;
-    width: 50%;
+    width: 20%;
 
 }
 .header__searchIcon {
