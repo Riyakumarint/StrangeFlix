@@ -6,11 +6,12 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 
 function Header() {
-    const[show,handleShow]=useState(false);
+    const [show, handleShow] = useState(false);
+    
     useEffect(() => {
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
-                handleShow(false);
+                handleShow(true);
             } else handleShow(false);
         });
         return () => {
@@ -27,8 +28,6 @@ function Header() {
             />
             </Link>
             
-            
-
 
             <div
             className='header__search'>
