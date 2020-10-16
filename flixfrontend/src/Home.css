@@ -1,8 +1,11 @@
+* {
+    margin:0; 
+}
 .home {
-  
   place-items: center;
   height: 100vh;
   background-color: black;
+  background-repeat: repeat;
 }
 
 .home__image {
@@ -10,5 +13,5 @@
     width: 100%;   
     z-index: -1;
     margin-bottom: -150px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) , rgba(0,0,0,0.9));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) , rgba(0,0,0,0.1));
 }
