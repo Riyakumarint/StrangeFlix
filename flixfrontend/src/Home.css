@@ -2,10 +2,7 @@
     margin:0; 
 }
 .home {
-  place-items: center;
-  height: 100vh;
-  background-color: black;
-  background-repeat: repeat;
+    background-color: black;
 }
 
 .home__image {
