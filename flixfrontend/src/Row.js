@@ -42,6 +42,8 @@ function Row({title, fetchUrl, isLargeRow}) {
             .catch((error) => console.log(error));
         }
       };
+  
+  console.table(movies);
 
     return (
         <div className="row">
